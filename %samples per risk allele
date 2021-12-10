@@ -1,0 +1,5 @@
+g <- ggplot(df, aes(MAF_RA))
+g <- g + geom_line(aes(y=AD), colour="purple", size=1.3)
+g <- g + geom_line(aes(y=C), colour="orange", size=1.3)
+g = g + labs(x="Risk alleles",y="Percentage", title="Percentage of samples per MAF-Risk Alleles")
+g=g+scale_y_continuous(limits=c(0,100))
