@@ -1,3 +1,10 @@
+
+
+MAF_RA=c(0,1,2)
+AD=c(14.146,46.992,38.862)
+C=c(14.179,46.744,39.077)
+
+
 g <- ggplot(df, aes(MAF_RA))
 g <- g + geom_line(aes(y=AD), colour="purple", size=1.3)
 g <- g + geom_line(aes(y=C), colour="orange", size=1.3)
